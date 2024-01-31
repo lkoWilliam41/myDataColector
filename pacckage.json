@@ -1,0 +1,18 @@
+{
+    "name": "myDataCollector",
+    "version": "1.0.0",
+    "description": "Projet de robot récolteur de données",
+    "main": "index.js",
+    "dependencies": {
+      "puppeteer": "^12.0.0",
+      "axios": "^0.23.0",
+      "mongoose": "^6.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
