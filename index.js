@@ -1,62 +1,23 @@
-// index.js
-
-const axios = require('axios');
-const cheerio = require('cheerio');
 const fs = require('fs');
-const websites = require('./Data/dataWebsite.json').websites;
+const websiteScraper = require('./scrapers/websiteScraper');
+const rssScraper = require('./scrapers/rssScraper');
 
-async function scrapeWebsite(url) {
+// Fonction principale pour exécuter les scrapers
+async function runScrapers() {
     try {
-        const response = await axios.get(url);
-        const $ = cheerio.load(response.data);
-        
-        const extractedData = {
-            url: url,
-            paragraphs:[],
-            links:[],
-            h1Titles:[]
-        };
+        // Exécution du scraper pour les sites web et sauvegarder les données
+        const websiteData = await websiteScraper.scrapeAllWebsites();
+        fs.writeFileSync('website_data.json', JSON.stringify(websiteData, null, 2));
+        console.log('Data recupérées et sauvegarde dans website_data.json');
 
-        // Récupération des paragraphes
-        $('p').each((index,element)=>{
-            extractedData.paragraphs.push($(element).text());
-        });
-
-        //Récupération des Grands Titres
-        $('h1').each((index,element)=>{
-            extractedData.paragraphs.push($(element).text());
-        });
-
-        //Récupération des liens
-        $('a').each((index, element)=>{
-            extractedData.paragraphs.push($(element).text())
-        })
-
-        return extractedData; // Retourne les données extraites
+        // Exécution du scraper pour les flux RSS et sauvegarder les données
+        const rssData = await rssScraper.scrapeRssFeeds();
+        fs.writeFileSync('rss_data.json', JSON.stringify(rssData, null, 2));
+        console.log('Flux RSS recupéré et sauvegarde dans rss_data.json');
     } catch (error) {
-        console.error('Error scraping website:', error);
-        return null; // Retourne un tableau vide en cas d'erreur
+        console.error('Error running scrapers:', error);
     }
 }
 
-async function scrapeAllWebsites() {
-    const allExtractedData = [];
-
-    for (const url of websites) {
-        const extractedData = await scrapeWebsite(url);
-        if (extractedData){
-            allExtractedData.push(extractedData); // Ajoute les données extraites avec l'URL correspondante
-        }
-    }
-
-    return allExtractedData; // Retourne le tableau contenant toutes les données extraites
-}
-
-scrapeAllWebsites().then((allData) => {
-    const jsonData = JSON.stringify(allData, null, 2); // Convertit le tableau en JSON avec une indentation de 2 espaces
-    fs.writeFileSync('extracted_data.json', jsonData); // Écrit le JSON dans un fichier
-    console.log('Data extracted and saved to extracted_data.json');
-}).catch((error) => {
-    console.error('Error scraping all websites:', error);
-});
-
+// Appele de  la fonction principale
+runScrapers();
