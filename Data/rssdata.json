@@ -2,7 +2,8 @@
     "rssData":[
         "https://www.dailymotion.com/rss/fr/tag/nantes",
         "https://www.dailymotion.com/rss/user/frenchweb",
-        "https://www.dailymotion.com/rss/search/%22veille+strategique%22"
+        "https://www.dailymotion.com/rss/search/%22veille+strategique%22",
+        "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 
     ]
 }

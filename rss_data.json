@@ -229,5 +229,114 @@
         "link": "https://www.dailymotion.com/video/x1nbwy0"
       }
     ]
+  },
+  {
+    "feedUrl": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+    "feedItems": [
+      {
+        "title": "Senate Passes $95 Billion Aid Package for Israel and Ukraine, But Fate Is Still Uncertain",
+        "link": "https://www.nytimes.com/2024/02/12/us/politics/senate-ukraine-aid.html"
+      },
+      {
+        "title": "Here Are the Republicans Who Broke With Their Party to Back Ukraine Aid",
+        "link": "https://www.nytimes.com/2024/02/12/us/politics/republican-defectors-ukraine-aid.html"
+      },
+      {
+        "title": "New York Braces for Snow; Trump’s Last-Ditch Immunity Effort",
+        "link": "https://www.nytimes.com/2024/02/13/podcasts/new-york-snowstorm-trump-santos.html"
+      },
+      {
+        "title": "Hezbollah Attack Injures 2 Israelis Amid Fresh Push to Reduce Tensions",
+        "link": "https://www.nytimes.com/2024/02/13/world/middleeast/hezbollah-israel-strikes-talks.html"
+      },
+      {
+        "title": "Was Boston’s Snow Forecast a Bust? Depends on Whom You Ask.",
+        "link": "https://www.nytimes.com/2024/02/13/us/boston-snow-forecast.html"
+      },
+      {
+        "title": "Haley’s Hard-Line Immigration Record Runs Counter to Trump’s Attacks",
+        "link": "https://www.nytimes.com/2024/02/13/us/politics/haley-immigration-trump.html"
+      },
+      {
+        "title": "Karine Jean-Pierre and John Kirby Share an Uncomfortable White House Spotlight",
+        "link": "https://www.nytimes.com/2024/02/13/business/media/biden-karine-jean-pierre-john-kirby.html"
+      },
+      {
+        "title": "RFK Jr.’s Ad Collides With Decades-Long Kennedy Family Legacy",
+        "link": "https://www.nytimes.com/2024/02/13/us/politics/rfk-jr-super-bowl-ad-kennedy.html"
+      },
+      {
+        "title": "Trump Is Backing His Daughter-in-Law for RNC Co-Chair",
+        "link": "https://www.nytimes.com/2024/02/12/us/politics/lara-trump-rnc.html"
+      },
+      {
+        "title": "Jon Stewart Returns to His Old ‘Daily Show’ Seat",
+        "link": "https://www.nytimes.com/2024/02/13/arts/television/jon-stewart-daily-show.html"
+      },
+      {
+        "title": "Jon Stewart Returns to Form on ‘The Daily Show’",
+        "link": "https://www.nytimes.com/2024/02/13/arts/television/daily-show-jon-stewart.html"
+      },
+      {
+        "title": "U.S. Gas Producers Are Racing to Sell to Asia. And Mexico Is Key.",
+        "link": "https://www.nytimes.com/2024/02/13/climate/mexico-natural-gas-biden.html"
+      },
+      {
+        "title": "Snowstorm in New York Could Shape Critical House Election",
+        "link": "https://www.nytimes.com/2024/02/13/nyregion/pilip-suozzi-santos-election.html"
+      },
+      {
+        "title": "What to Know About the Race to Replace George Santos",
+        "link": "https://www.nytimes.com/2024/02/08/nyregion/santos-district-special-election.html"
+      },
+      {
+        "title": "Why the Race to Replace George Santos Is So Close",
+        "link": "https://www.nytimes.com/2024/02/13/podcasts/the-daily/new-york-election.html"
+      },
+      {
+        "title": "Student Housing Has a New Mantra: Bigger Is Better",
+        "link": "https://www.nytimes.com/2024/02/13/business/student-housing-off-campus-real-estate.html"
+      },
+      {
+        "title": "Brazil’s Carnival Only Starts When 12-Foot John Travolta Arrives",
+        "link": "https://www.nytimes.com/2024/02/13/world/americas/brazil-carnival-john-travolta.html"
+      },
+      {
+        "title": "Only Biden and M.B.S. Can Redirect the Israeli-Palestinian Conflict",
+        "link": "https://www.nytimes.com/2024/02/13/opinion/israel-hamas-gaza.html"
+      },
+      {
+        "title": "Trump Is Losing It",
+        "link": "https://www.nytimes.com/2024/02/13/opinion/trump-campaign-biden-aging.html"
+      },
+      {
+        "title": "Michigan Voters’ Anger Is a Problem for Joe Biden",
+        "link": "https://www.nytimes.com/2024/02/13/opinion/michigan-primary-biden.html"
+      },
+      {
+        "title": "Covid Shots for Children",
+        "link": "https://www.nytimes.com/2024/02/13/briefing/covid-boosters-children-cdc.html"
+      },
+      {
+        "title": "Shooting at Bronx Subway Station Kills 1 and Injures 5, Police Say",
+        "link": "https://www.nytimes.com/2024/02/12/nyregion/bronx-subway-shooting.html"
+      },
+      {
+        "title": "Why Indonesia Calls Its Elections a ‘Democracy Party’",
+        "link": "https://www.nytimes.com/2024/02/13/world/asia/indonesia-election-democracy-party.html"
+      },
+      {
+        "title": "Two NYC Politicians Are Forming an Anti-NIMBY ‘Housing League’",
+        "link": "https://www.nytimes.com/2024/02/13/nyregion/nimbys-pro-development-housing-league-antonio-reynoso-erik-bottcher.html"
+      },
+      {
+        "title": "San Francisco Mayor London Breed’s Predecessor, Mark Farrell, Seeks to Unseat Her",
+        "link": "https://www.nytimes.com/2024/02/13/us/politics/mark-farrell-sf-mayoral-election.html"
+      },
+      {
+        "title": "Twyla Tharp Showcases Two New Dances and a Revival at the Joyce",
+        "link": "https://www.nytimes.com/2024/02/12/arts/dance/twyla-tharp-joyce-theater.html"
+      }
+    ]
   }
 ]
